@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+# Never commit local credentials or token caches (they live in ~/.config/md-to-gdoc).
+config.json
+token.json
+token-*.json

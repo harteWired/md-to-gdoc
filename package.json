@@ -1,0 +1,51 @@
+{
+  "name": "@hartewired/md-to-gdoc",
+  "version": "0.1.0",
+  "description": "Turn markdown into a nicely formatted Google Doc. A pure, zero-dependency markdown -> Docs API batchUpdate request builder (does the painful index math for you), plus an optional stateless CLI.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "gdoc": "bin/gdoc.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "google-docs",
+    "markdown",
+    "gdoc",
+    "docs-api",
+    "batchupdate",
+    "cli",
+    "google",
+    "oauth",
+    "agent",
+    "llm",
+    "automation",
+    "stateless",
+    "zero-dependency"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harteWired/md-to-gdoc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harteWired/md-to-gdoc/issues"
+  },
+  "homepage": "https://github.com/harteWired/md-to-gdoc#readme",
+  "author": "Matt Harte (https://github.com/harteWired)",
+  "license": "MIT"
+}
