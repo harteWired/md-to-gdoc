@@ -1,6 +1,6 @@
 {
   "name": "@hartewired/md-to-gdoc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Turn markdown into a nicely formatted Google Doc. A pure, zero-dependency markdown -> Docs API batchUpdate request builder (does the painful index math for you), plus an optional stateless CLI.",
   "type": "module",
   "main": "lib/index.js",
